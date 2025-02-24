@@ -1,0 +1,241 @@
+body.light {
+  background-color: #F4F7FD;
+}
+
+.light .header {
+  background-color: #fff;
+}
+
+.light * {
+  scrollbar-color: #E4EBFA #fff;
+  scrollbar-width: thin;
+}
+
+.light ::-webkit-scrollbar-track {
+  background: #E4EBFA;
+}
+
+.light ::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 4px;
+}
+
+.light .tablet-logo {
+  border-right: 1px solid rgba(228, 235, 250, 1);
+}
+
+.light .active-board-name h3 {
+  color: #000112;
+}
+
+.light .dropdown-btn {
+  color: #000112;
+  background-color: #fff;
+}
+
+.light .dropdown-menu {
+  background-color: #fff;
+}
+
+.light .task-card {
+  background-color: #FFFFFF;
+
+  h4 {
+    color: #000112;
+  }
+}
+
+.light .new-column {
+  background: linear-gradient(180deg, #E9EFFA 0%, rgba(233, 239, 250, 0.5) 100%);
+  border: none;
+  color: rgba(130, 143, 163, 1);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30.24px;
+  border-radius: 6px;
+}
+
+.light .new-board-container {
+  background-color: White;
+
+  h2 {
+    color: #000112;
+  }
+
+  label {
+    color:#828FA3;
+  }
+
+  input {
+    background-color: inherit;
+    color: #000112;
+  }
+
+  input::placeholder {
+    color: #000112;
+  }
+}
+
+.light .new-task-modal {
+  background-color: White;
+}
+
+.light .new-task-dialog-container {
+
+  h1 {
+    color: #000112;
+  }
+
+  h4 {
+    color: #828FA3;
+  }
+
+  input, textarea {
+    background-color: #FFFFFF;
+    color: #000112;
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    color: #000112;
+  }
+}
+
+.light .newtask-status-section {
+
+  .dropdown {
+    background-color: #FFFFFF;
+    color: #000112;
+  }
+  
+  .dropdown-menu {
+    background: #FFFFFF;
+  }
+}
+
+.light .task-dropdown {
+  background-color: #FFFFFF;
+  box-shadow: 0px 10px 20px 0px rgba(54, 78, 126, 0.25);
+}
+
+.light .detail-modal {
+  background-color: #FFFFFF;
+}
+
+.light .detail-container h1 {
+  color: #000112;
+}
+
+.light .detail-checkbox {
+  background-color: #F4F7FD;
+
+  li {
+    color: #000112;
+  }
+}
+
+.light .detail-checkbox input[type="checkbox"]:checked + li {
+  color: #000112;
+}
+
+.light .task-dropdown-item:hover {
+  background-color: #F4F7FD;
+}
+
+.light .task-dropdown-item.delete:hover {
+  background-color: rgba(234, 85, 85, 0.2);
+}
+
+.light .delete-dialog {
+  background-color: #FFFFFF;
+}
+
+.light .delete-dialog-cancel {
+  background-color: rgba(99, 95, 199, 0.1);
+}
+
+.light .delete-dialog-cancel:hover {
+  background-color: rgba(99, 95, 199, 0.25);
+}
+
+.light .theme-switch {
+  background-color: #F4F7FD;
+}
+
+.light .new-board-modal {
+  background: #FFFFFF;
+}
+
+.light .addnewcolumn-board {
+  background-color: rgba(99, 95, 199, 0.1);
+}
+
+.light .addnewcolumn-board:hover {
+  background: rgba(99, 95, 199, 0.25);
+}
+
+.light .addnew-subtask-btn {
+  background-color: #635FC71A;
+}
+
+.light .addnew-subtask-btn:hover {
+  background-color: #635FC740;
+}
+
+.light .sidebar.open .hide-sidebar {
+  background-color: transparent;
+  color: #828FA3;
+}
+
+.light .sidebar.open .hide-sidebar:hover {
+  background-color: #635fc71a;
+
+  span {
+    color: #635fc7;
+  }
+}
+
+.light .dropdown-menu li:hover {
+  background-color: #635fc71a;
+  color: #635fc7;
+}
+
+.light .task-card h4:hover {
+  color: #635fc7;
+}
+
+.light .dropdown-selected {
+  color: #000112;
+}
+
+.light .detail-checkbox:hover {
+  background-color: #d8d7f1;
+}
+
+.light .new-column:hover {
+  color: #635FC7;
+}
+
+.light .empty-board-message {
+  color: #000112;
+}
+
+@media (width >= 768px) {
+  .light .header {
+    border-bottom: 1px solid #E4EBFA;
+  }
+
+  .light .sidebar .dropdown-menu {
+    background-color: #FFFFFF;
+    border-right: 1px solid #E4EBFA;
+  }
+
+  .light .sidebar {
+    background-color: #FFFFFF;
+  }
+
+  .light .sidebar.open {
+    border-right: 1px solid #E4EBFA;
+  }
+  
+}
